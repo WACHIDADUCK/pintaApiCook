@@ -8,13 +8,13 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #333;
   color: #fff;
   padding: 15px 20px;
   position: sticky;
   top: 0;
+  width: 100%;
 }
 
 .navbar .logo {
@@ -22,9 +22,10 @@ body {
 }
 
 .nav-links {
+  
+  justify-self: end;
   list-style: none;
-  display: flex;
-  gap: 15px;
+  gap: 200px;
 }
 
 .nav-links a {

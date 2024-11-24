@@ -143,8 +143,6 @@ async function mostrarPlato(e) {
 
 
   let li = ``
-
-
   for (let i = 1; i < 21; i++) {
     let cantidadIndex = "strMeasure" + i
     let ingredienteIndex = "strIngredient" + i
@@ -155,8 +153,6 @@ async function mostrarPlato(e) {
 
 
   let card = `
-  
-  
   <div class="card centrado">
         <img src="${storage.strMealThumb}" alt="Ayam Percik" class="cardPlato">
         <div class="card-content">
@@ -177,9 +173,7 @@ async function mostrarPlato(e) {
         </div>
     </div>
 `
-
   vaciarContainer()
-
   document.querySelector(".main-content").innerHTML = card
 }
 
